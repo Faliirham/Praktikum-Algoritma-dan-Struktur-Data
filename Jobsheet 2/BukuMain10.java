@@ -17,5 +17,8 @@ public class BukuMain10 {
         bk2.terjual(11);
         bk2.tampilInformasi();
 
+        Buku10 bukufaliirham = new Buku10("Tutorial Nafas","Fali Irham",25,100,10000);
+        bukufaliirham.terjual(90);
+        bukufaliirham.tampilInformasi();
     }
 }

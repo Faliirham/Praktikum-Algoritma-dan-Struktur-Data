@@ -11,9 +11,14 @@ public class Buku10 {
         System.out.println("Harga : Rp"+harga);
     }
 
-    void terjual (int jml){
-        stok -= jml;
+    void terjual(int jml) {
+        if (stok > 0) {
+            stok -= jml;
+        } else {
+            System.out.println("Stok habis, tidak dapat melakukan penjualan.");
+        }
     }
+    
 
     void restock(int jml){
         stok += jml;
@@ -35,27 +40,24 @@ public class Buku10 {
         harga = har;
     }
 
-    int hitungHargaTotal (int jml){
+    int hitungHargaTotal (int jmlterjual){
 
-        int hargatotal = harga*jml;
-        return hargatotal;
+        return harga*jmlterjual;
     }
 
-    int hitungDiskon (int hargatotal){
-        int diskon = 0;
-        if (hargatotal > 150000) {
-            diskon = hargatotal * 12 / 100; 
-        } else if (hargatotal >= 75000) {
-            diskon = hargatotal * 5 / 100;
-        } else {
-            diskon = 0;
+    public double hitungDiskon(int hargaTotal) {
+        double diskon = 0.0;
+        if (hargaTotal > 150000) {
+            diskon = 0.12; 
+        } else if (hargaTotal >= 75000 && hargaTotal <= 150000) {
+            diskon = 0.05; 
         }
-
-        return diskon;
+        return diskon * hargaTotal;
     }
 
-    int hitungHargaBayar (int hargatotal, int diskon){
-        int hargaBayar = hargatotal - diskon;
-        return hargaBayar;
+    public int hitungHargaBayar(int jmlhterjual) {
+        int hargaTotal = hitungHargaTotal(jmlhterjual);
+        double diskon = hitungDiskon(hargaTotal);
+        return (int) (hargaTotal - diskon);
     }
 }

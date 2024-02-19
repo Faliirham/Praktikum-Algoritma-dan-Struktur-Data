@@ -18,9 +18,7 @@ jika nilai huruf D dan E maka TIDAK LULUS.
 LULUS/TIDAK LULUS
 
 * Output
-
 ![alt text](image.png)
-
 ![alt text](image-1.png)
 
 ### 2. **Perulangan**
@@ -35,6 +33,8 @@ aslinya, dengan n = 2 digit terakhir NIM anda.
 Membuat program untuk menghitung IP Semester dari matakuliah yang Anda tempuh
 semester lalu. Formula untuk menghitung IP semester sebagai berikut :
 *𝐼𝑃 𝑆𝑒𝑚𝑒𝑠𝑡𝑒𝑟 = ∑𝑖(𝑁𝑖𝑙𝑎𝑖 𝑆𝑒𝑡𝑎𝑟𝑎𝑖 ∗ 𝑏𝑜𝑏𝑜𝑡 𝑆𝐾𝑆𝑖) / ∑ 𝑆𝐾𝑆*
+Input dari program berupa nama matakuliah, bobot SKS, serta nilai huruf dari matakuliah 
+tersebut
 * Output
 
 ![alt text](image-3.png)
@@ -46,23 +46,30 @@ terjual.
 Jika terdapat informasi tambahan berupa pengurangan stock karena bunga tersebut mati.
 Dengan rincian Aglonema -1, Keladi -2, Alocasia -0, Mawar -5.
 * Output
-
-![alt text](image-4.png)
+1. ![alt text](image-4.png)
+2. ![alt text](image-5.png)
 
 ### **Tugas 1**
 Membuat program untuk membuat dua buah array berikut isinya sebagai berikut. Array
 pertama adalah array satu dimensi char KODE[10], berisi kode plat mobil. Array kedua, array
 dua dimensi char KOTA[10][12] berisi nama kota yang berpasangan dengan kode plat mobil. 
-* Output
 
-![alt text](image-5.png)
+* Kode Program 
+![alt text](image-6.png)
+* Output
+![alt text](image-7.png)
+
 
 ### **Tugas 2**
 Buat program untuk menghitung rumus kecepatan, jarak, dan waktu.
-* Output
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
+1. Kode Program fungsi Menu 
 ![alt text](image-8.png)
+2. Kode Program fungsi hitung kecepatan
+![alt text](image-9.png)
+3. Kode Program fungsi hitung Jarak
+![alt text](image-10.png)
+4. Kode Program fungsi hitung Waktu
+![alt text](image-11.png)
+* Output
+![alt text](image-12.png)
+
