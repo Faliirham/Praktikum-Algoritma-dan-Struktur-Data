@@ -83,6 +83,13 @@ Jawaban :
 
 ### 2.4 **Latihan Praktikum**
 1. Kode Program : 
-![alt text](js2.png)
+Class Buku : 
+![alt text](image-11.png)
+Class Buku Main : 
+![alt text](image-12.png)
+Output : 
+![alt text](image-13.png)
 2. Kode Program : 
-![alt text](js2p2.png)
+![alt text](image-14.png)
+output : 
+![alt text](image-15.png)
