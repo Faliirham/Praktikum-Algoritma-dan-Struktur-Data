@@ -11,6 +11,7 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 1. Mahasiswa mampu membuat algoritma bruteforce dan divide-conquer
 
 2. Mahasiswa mampu menerapkan penggunaan algorima bruteforce dan divide-conquer
+
 ----------------
 # 4.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 
