@@ -68,6 +68,7 @@ ada di ppArray.
 1. Apakah array of object dapat diimplementasikan pada array 2 Dimensi?
 
 _Jawaban_ : Ya, array of object dapat diimplementasikan dalam array dua dimensi.
+
 2. Jika jawaban soal no satu iya, berikan contohnya! Jika tidak, jelaskan!
 
 _Jawaban_ : 

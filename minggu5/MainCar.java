@@ -18,6 +18,7 @@ public class MainCar {
         System.out.println("Top acceleration tertinggi: " + cr.accelerationTertinggi(car, 0, car.length - 1));
         System.out.println("=======================================");
         System.out.println("Top acceleration terendah: " + cr.accelerationTerendah(car, 0, car.length - 1));
+        System.out.println("=======================================");
         System.out.printf("Rata-rata top power: %.1f\n", cr.AvgPowers(car));
 
     }
