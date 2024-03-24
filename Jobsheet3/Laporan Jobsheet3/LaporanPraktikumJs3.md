@@ -253,7 +253,7 @@ _Jawaban :_
 
 ![alt text](image-30.png)
 
--**OutPut**
+- **OutPut**
 
 ![alt text](image-29.png) 
 
