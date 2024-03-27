@@ -5,7 +5,7 @@
 ## Kelas   : 1-H
 ## NIM     : 2341720121
 
-# 4.1 Tujuan Praktikum 
+### 4.1 Tujuan Praktikum 
 Setelah melakukan materi praktikum ini, mahasiswa mampu:
 
 1. Mahasiswa mampu membuat algoritma bruteforce dan divide-conquer
@@ -13,7 +13,7 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 2. Mahasiswa mampu menerapkan penggunaan algorima bruteforce dan divide-conquer
 
 ----------------
-# 4.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
+### 4.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 
 **Kode Program :**
 
@@ -25,10 +25,10 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 
 ![alt text](image-1.png)
 
-# 4.2.1 Verifikasi Hasil Percobaan 
+### 4.2.1 Verifikasi Hasil Percobaan 
 ![alt text](image-2.png)
 --------------
-# 4.2.3 Pertanyaan
+### 4.2.3 Pertanyaan
 
 1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan 
 perbedaan bagian kode pada penggunaan if dan else!
@@ -59,10 +59,10 @@ suatu angka menggunakan 2 jenis algoritma, Brute Force dan Divide and Conquer.
 
 ![alt text](image-4.png)
 ---------------
-# 4.3.1 Verifikasi Hasil Percobaan 
+### 4.3.1 Verifikasi Hasil Percobaan 
 ![alt text](image-5.png)
 ----------------
-# 4.3.2 Pertanyaan 
+### 4.3.2 Pertanyaan 
 
 1. Jelaskan mengenai perbedaan 2 method yang dibuat yaitu PangkatBF() dan PangkatDC()!
 
@@ -96,7 +96,7 @@ _Output :_
 ![alt text](image-12.png)
 
 ---------------------
-# 4.4  Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
+### 4.4  Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
 Di dalam percobaan ini, kita akan mempraktekkan bagaimana proses divide, conquer, dan 
 combine diterapkan pada studi kasus penjumlahan keuntungan suatu perusahaan dalam beberapa 
 bulan.
@@ -112,11 +112,11 @@ bulan.
 ![alt text](image-10.png)
 
 ------------------
-# 4.4.1 Verfikasi Hasil Percobaan 
+### 4.4.1 Verfikasi Hasil Percobaan 
 ![alt text](image-11.png)
 
 ------------------
-# 4.4.2 Pertanyaan
+### 4.4.2 Pertanyaan
 
 1. Mengapa terdapat formulasi return value berikut?Jelaskan!
 
@@ -141,7 +141,7 @@ _Output Kode Program:_
 
 ![alt text](image-15.png)
 
-# 4.5 Latihan Praktikum 
+### 4.5 Latihan Praktikum 
 
 ![alt text](image-16.png)
 

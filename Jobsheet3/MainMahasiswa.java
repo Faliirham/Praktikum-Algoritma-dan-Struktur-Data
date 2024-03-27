@@ -28,7 +28,7 @@ public class MainMahasiswa {
         System.out.println("Rata - Rata IPK Mahasiswa : "+ratarataipk(mhs));
         System.out.println("Mahasiswa Dengan Nilai Ipk Tertinggi "+"\nNama : "+ipktertinggi(mhs).nama+"\nNim : "+ipktertinggi(mhs).nim
         +"\nJenis kelamin : "+ipktertinggi(mhs).jeniskelamin+"\nDengan Ipk : "+ipktertinggi(mhs).ipk);
-     
+     sc.close();
     
     }
 

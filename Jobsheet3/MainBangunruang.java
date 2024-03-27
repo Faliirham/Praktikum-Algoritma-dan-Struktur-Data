@@ -42,6 +42,6 @@ public class MainBangunruang {
             System.out.printf("Bola ke-%d\nmemiliki Volume : %.2f\n dan Luas Permukaan : %.2f\n",
                 (j2+1), bl[j2].volumebola(), bl[j2].Luaspermukaanbola());
         }
-        
+     sc.close();   
     }
 }
