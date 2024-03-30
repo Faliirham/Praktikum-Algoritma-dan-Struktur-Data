@@ -46,15 +46,16 @@ public class DaftarMahasiswaBerprestasi {
         }
     }
 
-    void insectionsort (){
+    void insectionsort() {
         for (int i = 0; i < listmhs.length; i++) {
             Mahasiswa temp = listmhs[i];
             int j = i;
-            while (j > 0 && listmhs[j-1].ipk < temp.ipk){
+            while (j > 0 && listmhs[j-1].ipk < temp.ipk) { 
                 listmhs[j] = listmhs[j-1];
                 j--;
             }
             listmhs[j] = temp;
         }
     }
+    
 }

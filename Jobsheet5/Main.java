@@ -24,13 +24,13 @@ public class Main {
     list.bubblesort();
     list.tampil();
     
-    /*System.out.println("Data Mahasiswa setelah sorting asc berdasarkan ipk");
+    System.out.println("Data Mahasiswa setelah sorting asc berdasarkan ipk");
     list.selectionsort();
     list.tampil();
 
     System.out.println("Data Mahasiswa setelah sorting asc berdasarkan ipk");
     list.insectionsort();
-    list.tampil();*/ 
+    list.tampil();
 
     }
 }

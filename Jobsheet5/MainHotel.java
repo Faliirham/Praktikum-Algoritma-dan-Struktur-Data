@@ -19,6 +19,7 @@ public class MainHotel {
 
         System.out.println("Daftar hotel Sebelum Sorting : ");
         htl.tampil();
+       
         
         System.out.println("Tampilkan urutan berdasarkan : ");
         System.out.println("1.Bintang Tertinggi");
@@ -57,6 +58,7 @@ public class MainHotel {
                     case 1:
                         System.out.println("Daftar hotel setelah sorting Harga ");
                         htl.bubblesortascHarga();
+                        htl.tampil();
                         break;
                     case 2:
                         System.out.println("Daftar hotel setelah sorting Harga");

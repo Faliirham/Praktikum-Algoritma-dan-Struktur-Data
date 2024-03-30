@@ -68,8 +68,126 @@ _Jawaban :_ Karena pada iterasi terakhir elemen terakhir sudah pasti berada di p
 
 c. Mengapa syarat dari perulangan j adalah `j<listMhs.length-i` ?
 
-_Jawaban :_ 
+_Jawaban :_ untuk membatasi iterasi j agar tidak memeriksa kembali elemen yang sudah terurut di bagian belakang array.
 
 d. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan 
 berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh?
 
+_Jawaban :_  jika banyak data dalam listMhs adalah 50, maka jumlah perulangan i pada algoritma bubblesort adalah 49 kali. serta tahap bubblesort yang ditempuh sebanyak 49 kali sesuai dengan jumlah iterasi pada perulangan luar (i), dimana mencakup pergeseran elemen-elemen besar ke bagian belakang array hingga semua elemen terurut.
+------------------
+### 5.3 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Selection Sort
+**KodeProgram :** 
+
+- **Mahasiswa Class :**
+
+![alt text](code.png)
+
+- **DaftarMahasiswaBerprestasi Class:**
+
+![alt text](code3.png)
+
+- **Main Class :**
+
+![alt text](code4.png)
+------------------
+### 5.3.1 Verifikasi Hasil Percobaan
+_Sebelum Sorting :_
+
+![alt text](image.png)
+
+_Setelah Sorting :_
+
+![alt text](image-4.png)
+
+----------------------
+### 5.3.2 Pertabnyaan 
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:
+
+![alt text](image-5.png)
+
+Untuk apakah proses tersebut, jelaskan!
+
+_Jawaban :_ Proses tersebut adalah bagian dari algoritma selection sort yang bertujuan untuk mencari elemen terkecil dalam array. Langkahnya dimulai dengan menginisialisasi idxmin dengan nilai i, kemudian dilakukan perulangan untuk mencari elemen terkecil dari indeks i+1 hingga akhir array. Jika ditemukan elemen yang lebih kecil, maka idxmin diupdate dengan nilai indeks elemen terkecil tersebut. Setelah proses pencarian selesai, dilakukan pertukaran elemen antara indeks i dengan idxmin, sehingga elemen terkecil dipindahkan ke posisi yang benar dalam array.
+--------------------
+### 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
+**Kode Program :** 
+
+- **Mahasiswa Class :**
+
+![alt text](code.png)
+
+- **DaftarMahasiswaBerprestasi Class:**
+
+![alt text](code6.png)
+
+- **Main Class :**
+
+![alt text](code5.png)
+------------------
+### 5.4.1 Verifikasi Hasil Percobaan 
+_Sebelum Sorting :_
+
+![alt text](image.png)
+
+_Setelah Sorting :_
+
+![alt text](image-6.png)
+
+----------------------
+### 5.4.2 Pertanyaan
+Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting 
+dengan cara descending
+
+_Jawaban :_
+
+**Kode Program Yang di ubah :**  
+
+![alt text](image-7.png)
+
+**Output :**
+
+![alt text](image-8.png)
+--------------------
+### 5.5 Latihan praktikum 
+
+**Kode Program :** 
+
+- **Hotel Class :**
+
+![alt text](code7.png)
+
+- **Hotel Service Class:**
+
+![alt text](code8.png)
+
+- **MainHotel Class :**
+
+![alt text](code9.png)
+
+- **Output :**
+
+**Sebelum Sorting** 
+
+![alt text](image-9.png)
+
+1. _Mengurutkan Bintang :_
+
+- _Bubble Sort :_
+
+![alt text](image-10.png)
+
+- _Selection Sort :_
+
+![alt text](image-11.png)
+
+2. _Mengurutkan Harga:_
+
+- _Bubble Sort :_
+
+![alt text](image-12.png)
+
+- _Selection Sort :_
+
+![alt text](image-13.png)
+
+------------------
