@@ -1,4 +1,4 @@
-package Jobsheet7;
+package Jobsheet7.Pertemuan9;
 
 public class Barang10 {
     int kode;
