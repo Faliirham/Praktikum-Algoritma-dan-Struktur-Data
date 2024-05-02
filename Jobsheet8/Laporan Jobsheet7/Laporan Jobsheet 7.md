@@ -102,7 +102,7 @@ _Jawaban :_
 1. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi `while (kode != 0)`, 
 bagaimana hasilnya? Jelaskan alasannya!
 
-_Jawaban :_ Setelah diubah menjadi while (kode != 0), perulangan akan dilakukan selama kode tidak sama dengan 0. dan hasilnya pun sama ketika menggunakan `while (kode != 0)`
+_Jawaban :_ Setelah diubah menjadi while (kode != 0), perulangan akan dilakukan selama kode tidak sama dengan 0. dan hasilnya pun sama ketika menggunakan `while (kode > 0)`
 
 _Bukti:_
 
