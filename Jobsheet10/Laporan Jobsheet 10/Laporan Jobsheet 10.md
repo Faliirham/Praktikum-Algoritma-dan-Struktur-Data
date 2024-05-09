@@ -65,4 +65,114 @@ _Jawaban :_ queue overflow terjadi pada method Enqueue. Contohnya, jika antrian 
 
 7. Pada saat terjadi queue overflow dan queue underflow, program tersebut tetap dapat berjalan dan hanya menampilkan teks informasi. Lakukan modifikasi program sehingga pada saat terjadi queue overflow dan queue underflow, program dihentikan! 
 
-_Jawaban :_ 
+_Jawaban :_  
+
+- **Modifikasi saat Overflow :**  
+
+![alt text](code2.png)
+
+- **Modifikasi saat Underflow :** 
+
+![alt text](code3.png)
+-------------------------------------------
+### 10.3  Praktikum 2
+membuat program yang mengilustrasikan teller di bank dalam melayani nasabah.
+
+**Kode Program :**
+
+- **Nasabah Class :**
+
+![alt text](code4.png)
+
+- **Queue2 Class :**
+
+![alt text](code5.png)
+
+- **Queue Main 2 Class :**
+
+![alt text](code6.png)
+---------------------------
+### 10.3.1 Verifikasi hasil Percoban
+![alt text](image-4.png)
+-----------------------------
+### 10.3.2 Pertanyaan 
+1. Pada class QueueMain, jelaskan fungsi IF pada potongan kode program berikut!
+
+![alt text](image-5.png)
+
+_Jawaban:_  kondisi `if` tersebut memeriksa apakah semua atribut dari objek data memiliki nilai yang tidak null (untuk string) dan tidak sama dengan 0 (untuk integer dan double). Jika semua kondisi terpenuhi, maka pesan yang berisi informasi tentang nasabah yang keluar akan dicetak.
+
+2. Lakukan modifikasi program dengan menambahkan method baru bernama peekRear pada class Queue yang digunakan untuk mengecek antrian yang berada di posisi belakang! Tambahkan pula daftar menu 5. Cek Antrian paling belakang pada class QueueMain sehingga method peekRear
+dapat dipanggil! 
+
+_Jawaban:_ 
+
+**Modifikasi pada Queue2 Class :**
+
+![alt text](code8.png)
+
+**Modifikasi pada QueueMain2 Class :**
+
+![alt text](code7.png)
+
+**Output :**
+
+![alt text](image-6.png)
+--------------------------
+### 10.4 Tugas 
+Buatlah program antrian untuk mengilustasikan pesanan disebuah warung. Ketika seorang 
+pembeli akan mengantri, maka dia harus mendaftarkan nama, dan nomor HP seperti yang 
+digambarkan pada Class diagram berikut:
+
+![alt text](image-7.png)
+
+Class diagram Queue digambarkan sebagai berikut:
+
+![alt text](image-8.png)
+
+Keterangan:
+
+• Method create(), isEmpty(), isFull(), enqueue(), dequeue() dan print(), kegunaannya sama seperti 
+yang telah dibuat pada Praktikum
+
+• Method peek(): digunakan untuk menampilkan data Pembeli yang berada di posisi antrian paling 
+depan
+
+• Method peekRear(): digunakan untuk menampilkan data Pembeli yang berada di posisi antrian 
+paling belakang
+
+• Method peekPosition(): digunakan untuk menampilkan seorang pembeli (berdasarkan nama)
+posisi antrian ke berapa
+
+• Method daftarPembeli(): digunakan untuk menampilkan data seluruh pembeli
+
+
+_Jawaban :_
+
+**Kode Program :**
+
+- **Pembeli Class:** 
+
+![alt text](code9.png)
+
+- **Queue Class:**
+
+![alt text](code10.png)
+
+- **Pembeli Java:**
+
+![alt text](code11.png)
+
+**Output Kode Program :**
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+
+-------------------------------
+
+
+
+
+
