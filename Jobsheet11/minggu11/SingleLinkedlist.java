@@ -84,7 +84,7 @@ public class SingleLinkedlist {
 
     public int getData(int index) {
         Node tmp = head;
-        for (int i = 0; i < index && tmp != null; i++) {
+        for (int i = 0; i < index +1; i++) {
             tmp = tmp.next;
         }
         if (tmp != null) {

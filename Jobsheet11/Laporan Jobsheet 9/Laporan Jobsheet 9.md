@@ -49,3 +49,25 @@ _Jawaban :_ `temp` adalah penunjuk yang digunakan untuk melacak posisi saat mela
 _Jawaban :_ `if (temp.next.next == null) { tail = temp.next; }:` berguna memeriksa apakah node baru (temp.next) adalah node terakhir dalam linked list. Jika ya, maka tail diperbarui untuk menunjuk ke node baru ini, karena node baru telah disisipkan di akhir linked list.
 --------------
 ### 9.2.2 Modifikasi Elemen pada Single Linked List
+
+**Kode Program :** 
+
+- **Single Linked List Class :**
+
+![alt text](code7.png)
+
+- **SLL Main Class :**
+
+![alt text](code3.png)
+
+-----------------------------
+### 9.2.2.1 Verifikasi Hasil Percobaan
+
+![alt text](image-2.png)
+---------------------------------
+### 9.2.2.2 Pertanyaan 
+1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
+
+_Jawaban :_ 
+
+2. Jelaskan kegunaan kode dibawah pada method remove
