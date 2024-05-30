@@ -158,9 +158,13 @@ _BinaryTreeArray10 Class :_
 
 ![alt text](code7.png)
 
-_BinaryTreeMain10 Class :_
+_BinaryTreeAraayMain10 Class :_
 
 ![alt text](code8.png)
 
 _Output :_
+
+![alt text](image-3.png)
+
+
 
