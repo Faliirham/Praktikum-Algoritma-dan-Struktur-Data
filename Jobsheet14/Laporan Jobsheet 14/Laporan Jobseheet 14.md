@@ -91,13 +91,76 @@ Implementasi binary tree dengan array
 ![alt text](image-1.png)
 --------------------------------
 ### 13.3.2 Pertanyaan Percobaan
-1. Apakah kegunaan dari atribut data dan idxLast yang ada di class BinaryTreeArray?
+1. Apakah kegunaan dari atribut `data` dan `idxLast` yang ada di class BinaryTreeArray?
+
+_Jawaban :_ 
+
+- `data`: Array yang digunakan untuk menyimpan elemen-elemen dari binary tree.
+
+- `idxLast`: Menyimpan indeks terakhir dari elemen yang ada di array `data`, menunjukkan batas dari elemen-elemen yang relevan dalam array.
 
 2. Apakah kegunaan dari method populateData()?
 
-3. Apakah kegunaan dari method traverseInOrder()?
+_Jawaban :_ Method `populateData()` digunakan untuk mengisi array data dan mengatur `idxLast` dengan nilai-nilai yang diberikan sebagai parameter, sehingga binary tree dapat diinisialisasi dengan data yang sudah ada.
+
+3. Apakah kegunaan dari method `traverseInOrder()`?
+
+_Jawaban :_ Method  `traverseInOrder()` digunakan untuk melakukan traversal inorder pada binary tree yang disimpan dalam array. Traversal inorder mengunjungi node dalam urutan: anak kiri, node saat ini, kemudian anak kanan.
 
 4. Jika suatu node binary tree disimpan dalam array indeks 2, maka di indeks berapakah posisi 
 left child dan rigth child masin-masing?
 
-5. Apa kegunaan statement int idxLast = 6 pada praktikum 2 percobaan nomor 4?
+_Jawaban :_ 
+
+- Left child: 2 * 2 + 1 = 5
+
+- Right child: 2 * 2 + 2 = 6
+
+5. Apa kegunaan statement int idxLast = 6 pada praktikum 2 percobaan nomor 4? 
+
+_Jawaban :_ Statement int idxLast = 6 digunakan untuk menunjukkan bahwa elemen terakhir yang valid dalam array data berada pada indeks 6. dimana dapat membantu untuk menentukan batas saat melakukan traversal agar tidak mengakses elemen di luar indeks yang berisi data.
+------------------------
+### 13.4  Tugas Praktikum 
+1. Buat method di dalam class BinaryTree yang akan menambahkan node dengan cara 
+rekursif.
+
+2. Buat method di dalam class BinaryTree untuk menampilkan nilai paling kecil dan yang 
+paling besar yang ada di dalam tree.
+
+3. Buat method di dalam class BinaryTree untuk menampilkan data yang ada di leaf.
+
+4. Buat method di dalam class BinaryTree untuk menampilkan berapa jumlah leaf yang ada 
+di dalam tree.
+
+5. Modifikasi class BinaryTreeArray, dan tambahkan : 
+• method `add(int data)` untuk memasukan data ke dalam tree 
+• method `traversePreOrder()` dan `traversePostOrder()`
+
+- **Jawaban no 1-4 :**
+
+**Kode Program :**
+
+_BinaryTree10 Class :_
+
+![alt text](code5.png)
+
+_BinaryTreeMain10 Class :_
+
+![alt text](code6.png)
+
+_Output :_
+
+![alt text](image-2.png)
+
+- **Jawaban no 5 :**
+
+_BinaryTreeArray10 Class :_
+
+![alt text](code7.png)
+
+_BinaryTreeMain10 Class :_
+
+![alt text](code8.png)
+
+_Output :_
+

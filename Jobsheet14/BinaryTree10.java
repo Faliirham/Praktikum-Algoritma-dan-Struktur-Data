@@ -163,4 +163,56 @@ public class BinaryTree10 {
             successor.left = current.left;
         }
     }
+    Node10 addRecursive(Node10 current, int data) {
+        if (current == null) {
+            return new Node10(data);
+        }
+        if (data < current.data) {
+            current.left = addRecursive(current.left, data);
+        } else if (data > current.data) {
+            current.right = addRecursive(current.right, data);
+        }
+        return current;
+    }
+    int findMin() {
+        if (isEmpty()) {
+            System.out.println("Tree is empty");
+        }
+        Node10 current = root;
+        while (current.left != null) {
+            current = current.left;
+        }
+        return current.data;
+    }
+    int findMax() {
+        if (isEmpty()) {
+            System.out.println("Tree Is Empty");
+        }
+        Node10 current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        return current.data;
+    }
+    void printLeaf(Node10 node) {
+        if (node != null) {
+            
+            if (node.left == null && node.right == null) {
+                System.out.print(node.data + " ");
+            }else{
+                printLeaf(node.left);
+                printLeaf(node.right);
+            }
+            
+        }
+    }
+    int countLeaf(Node10 node) {
+        if (node == null) {
+            return 0;
+        }
+        if (node.left == null && node.right == null) {
+            return 1;
+        }
+        return countLeaf(node.left) + countLeaf(node.right);
+    }
 }
