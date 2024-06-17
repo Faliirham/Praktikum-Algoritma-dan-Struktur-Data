@@ -54,10 +54,7 @@ public class DoubleLinkedList {
     int size (){
         return size;
     }
-    void clear (){
-        head = null;
-        size = 0;
-    }
+   
     void print (){
         if (!isEmpty()) {
             Node tmp = head;
